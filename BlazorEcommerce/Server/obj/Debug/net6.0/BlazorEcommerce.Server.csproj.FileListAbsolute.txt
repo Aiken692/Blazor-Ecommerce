@@ -24,6 +24,10 @@ D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Mic
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Microsoft.JSInterop.dll
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\System.IO.Pipelines.dll
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\BlazorEcommerce.Client.dll
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\BlazorEcommerce.Shared.dll
@@ -34,6 +38,7 @@ D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\Bla
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\BlazorEcommerce.Server.AssemblyInfoInputs.cache
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\BlazorEcommerce.Server.AssemblyInfo.cs
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\BlazorEcommerce.Server.csproj.CoreCompileInputs.cache
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\BlazorEcommerce.Server.MvcApplicationPartsAssemblyInfo.cs
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\BlazorEcommerce.Server.MvcApplicationPartsAssemblyInfo.cache
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\BlazorEcommerce.Server.RazorAssemblyInfo.cache
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\BlazorEcommerce.Server.RazorAssemblyInfo.cs
@@ -51,3 +56,7 @@ D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\ref
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\BlazorEcommerce.Server.pdb
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\BlazorEcommerce.Server.genruntimeconfig.cache
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\ref\BlazorEcommerce.Server.dll
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
