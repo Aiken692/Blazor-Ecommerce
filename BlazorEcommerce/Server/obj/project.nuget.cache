@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Sv2lfM9mLZ+V+djxb3pRNeUrXqS+D0ct4PUIDMIoycwNjnoXZRpc5wT2/lfQPkAqvwTRKagjxRRFPBS/GG1b1g==",
+  "dgSpecHash": "6Wj8caZZeVg60LAR6Lh26TLAJhM2awHvVBzQdq4tU85loV+X8XsBuqKKatdj9k8A8Gre2Jr/zAR3Djf8fiq8RA==",
   "success": true,
   "projectFilePath": "D:\\Personal Projects\\BlazorEcommerce\\BlazorEcommerce\\Server\\BlazorEcommerce.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\EmataTemp\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.20\\microsoft.aspnetcore.authorization.6.0.20.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.20\\microsoft.aspnetcore.components.6.0.20.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.20\\microsoft.aspnetcore.components.analyzers.6.0.20.nupkg.sha512",
@@ -15,6 +16,8 @@
     "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.21\\microsoft.entityframeworkcore.6.0.21.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.21\\microsoft.entityframeworkcore.abstractions.6.0.21.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.21\\microsoft.entityframeworkcore.analyzers.6.0.21.nupkg.sha512",
+    "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.21\\microsoft.entityframeworkcore.design.6.0.21.nupkg.sha512",
+    "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.21\\microsoft.entityframeworkcore.relational.6.0.21.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
@@ -35,6 +38,8 @@
     "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.jsinterop\\6.0.20\\microsoft.jsinterop.6.0.20.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.20\\microsoft.jsinterop.webassembly.6.0.20.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\EmataTemp\\.nuget\\packages\\npgsql\\6.0.8\\npgsql.6.0.8.nupkg.sha512",
+    "C:\\Users\\EmataTemp\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.8\\npgsql.entityframeworkcore.postgresql.6.0.8.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
@@ -46,12 +51,5 @@
     "C:\\Users\\EmataTemp\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\EmataTemp\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "No Authorization header detected"
-    }
-  ]
+  "logs": []
 }
