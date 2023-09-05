@@ -1,3 +1,9 @@
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.csproj.AssemblyReference.cache
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.AssemblyInfoInputs.cache
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.AssemblyInfo.cs
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.csproj.CoreCompileInputs.cache
+D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.MvcApplicationPartsAssemblyInfo.cache
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net6.0\wwwroot\_framework\BlazorEcommerce.Client.dll
@@ -602,12 +608,6 @@ D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net6.0\icu
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net6.0\icudt_no_CJK.dat
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net6.0\BlazorEcommerce.Shared.dll
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net6.0\BlazorEcommerce.Shared.pdb
-D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.csproj.AssemblyReference.cache
-D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.GeneratedMSBuildEditorConfig.editorconfig
-D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.AssemblyInfoInputs.cache
-D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.AssemblyInfo.cs
-D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.csproj.CoreCompileInputs.cache
-D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.MvcApplicationPartsAssemblyInfo.cache
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\build-gz\gKdvsJQt.gz
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\build-gz\oV1NAKdP.gz
 D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\build-gz\rG+2KURo.gz

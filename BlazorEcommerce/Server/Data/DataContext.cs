@@ -65,7 +65,7 @@
                      Id = Guid.NewGuid(),
                      Title = "Nineteen Eighty-Four",
                      Description = "Nineteen Eighty-Four (also stylised as 1984) is a dystopian social science fiction novel and cautionary tale written by English writer George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime. Thematically, it centres on the consequences of totalitarianism, mass surveillance and repressive regimentation of people and behaviours within society.[2][3] Orwell, a democratic socialist, modelled the totalitarian government in the novel after Stalinist Russia and Nazi Germany.[2][3][4] More broadly, the novel examines the role of truth and facts within politics and the ways in which they are manipulated.",
-                     ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/c/c3/1984first.jpg",
+                     ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/0/04/Nineteen_Eighty-Four_cover_Soviet_1984.jpg",
                      Price = 6.99,
                      CategoryId = Guid.Parse("4a1074aa-ce6c-4bb0-9a92-f7065ee25d01"),
                  },

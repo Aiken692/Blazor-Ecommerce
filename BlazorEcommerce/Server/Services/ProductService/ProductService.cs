@@ -37,5 +37,15 @@
 
             return response;
         }
+
+        public async Task<ServiceResponse<List<Product>>> GetProductsByCategoryUrlAsync(string categoryUrl)
+        {
+            var response = new ServiceResponse<List<Product>>
+            {
+                Data = await _dbContext.Products.Where(p => p.Category.Url.ToLower().Equals(categoryUrl.ToLower())).ToListAsync()
+            };
+
+            return response;
+        }
     }
 }

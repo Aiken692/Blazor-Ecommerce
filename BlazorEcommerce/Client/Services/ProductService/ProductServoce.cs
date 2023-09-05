@@ -1,8 +1,4 @@
-﻿
-
-using BlazorEcommerce.Shared;
-
-namespace BlazorEcommerce.Client.Services.ProductService
+﻿namespace BlazorEcommerce.Client.Services.ProductService
 {
     public class ProductServoce : IProductService
     {
@@ -14,6 +10,8 @@ namespace BlazorEcommerce.Client.Services.ProductService
         }
         public List<Product> Products { get; set; } = new List<Product>();
 
+        public event Action ProductsChanged;
+
         public async Task<ServiceResponse<Product>> GetProduct(Guid productId)
         {
             var result = await _httpClient.GetFromJsonAsync<ServiceResponse<Product>>($"api/products/{productId}");
@@ -21,15 +19,16 @@ namespace BlazorEcommerce.Client.Services.ProductService
             return result;
         }
 
-        public async Task GetProducts()
+        public async Task GetProducts(string? categoryUrl)
         {
-            var result = await _httpClient.GetFromJsonAsync<ServiceResponse<List<Product>>>("api/products");
+            var result = categoryUrl == null ? await _httpClient.GetFromJsonAsync<ServiceResponse<List<Product>>>("api/products") : await _httpClient.GetFromJsonAsync<ServiceResponse<List<Product>>>($"api/products/category/{categoryUrl}");
 
             if (result != null && result.Data != null)
             {
                 Products = result.Data;
             }
-        }
 
+            ProductsChanged.Invoke();
+        }
     }
 }
