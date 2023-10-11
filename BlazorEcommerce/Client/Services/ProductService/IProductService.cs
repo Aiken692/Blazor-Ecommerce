@@ -8,6 +8,6 @@
 
         Task GetProducts(string? categoryUrl);
 
-        Task<ServiceResponse<Product>> GetProduct(Guid productId);
+        Task<ServiceResponse<Product>> GetProduct(int productId);
     }
 }
