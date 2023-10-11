@@ -9,11 +9,14 @@
             _dbContext = dbContext;
         }
 
-        public async Task<ServiceResponse<Product>> GetProductAsync(Guid productId)
+        public async Task<ServiceResponse<Product>> GetProductAsync(int productId)
         {
             var response = new ServiceResponse<Product>();
 
-            var product = await _dbContext.Products.FindAsync(productId);
+            var product = await _dbContext.Products
+                .Include(v => v.Variants)
+                .ThenInclude(t => t.ProductType)
+                .FirstOrDefaultAsync(p => p.Id == productId);
 
             if (product == null)
             {
@@ -32,7 +35,9 @@
         {
             var response = new ServiceResponse<List<Product>>
             {
-                Data = await _dbContext.Products.ToListAsync()
+                Data = await _dbContext.Products
+                .Include(v => v.Variants)
+                .ToListAsync()
             };
 
             return response;
@@ -42,7 +47,10 @@
         {
             var response = new ServiceResponse<List<Product>>
             {
-                Data = await _dbContext.Products.Where(p => p.Category.Url.ToLower().Equals(categoryUrl.ToLower())).ToListAsync()
+                Data = await _dbContext.Products
+                .Where(p => p.Category.Url.ToLower().Equals(categoryUrl.ToLower()))
+                .Include(v => v.Variants)
+                .ToListAsync()
             };
 
             return response;

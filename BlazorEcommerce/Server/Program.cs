@@ -3,6 +3,7 @@ global using BlazorEcommerce.Server.Services.CategoryService;
 global using BlazorEcommerce.Server.Services.ProductService;
 global using BlazorEcommerce.Shared;
 global using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +17,12 @@ builder.Services.AddDbContext<DataContext>(options =>
 //End of Db configuration
 
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+    });
+
 builder.Services.AddRazorPages();
 
 //configuring swagger
