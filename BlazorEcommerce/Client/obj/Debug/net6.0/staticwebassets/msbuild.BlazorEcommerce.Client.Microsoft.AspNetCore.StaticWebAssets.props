@@ -281,7 +281,7 @@
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Alternative</AssetRole>
-      <RelatedAsset>D:\Personal Projects\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
+      <RelatedAsset>D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
       <AssetTraitName>Content-Encoding</AssetTraitName>
       <AssetTraitValue>gzip</AssetTraitValue>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
