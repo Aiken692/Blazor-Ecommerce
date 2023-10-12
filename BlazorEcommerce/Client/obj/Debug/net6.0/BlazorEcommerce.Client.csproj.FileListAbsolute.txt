@@ -1658,3 +1658,5 @@ D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\b
 D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\projectbundle\BlazorEcommerce.Client.bundle.scp.css
 D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.csproj.CopyComplete
 D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\ref\BlazorEcommerce.Client.dll
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\Shared\ShopLayout.razor.rz.scp.css
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\Shared\ShopNavMenu.razor.rz.scp.css
