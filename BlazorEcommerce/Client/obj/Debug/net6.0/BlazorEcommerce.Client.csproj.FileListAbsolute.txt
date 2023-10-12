@@ -1661,3 +1661,4 @@ D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\ref\BlazorE
 D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\Shared\ShopLayout.razor.rz.scp.css
 D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\Shared\ShopNavMenu.razor.rz.scp.css
 D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\Shared\HomeButton.razor.rz.scp.css
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\Shared\FeaturedProducts.razor.rz.scp.css
