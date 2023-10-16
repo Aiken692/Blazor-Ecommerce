@@ -1680,3 +1680,11 @@ D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\bin\Debug\net6.0\Microsoft.A
 D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
 D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\build-gz\j9RXMzc9.gz
 D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\build-gz\PPYI+OQm.gz
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Http.Features.dll
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Http.Features.dll.gz
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Http.Abstractions.dll.gz
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\build-gz\O1LlTaC5.gz
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Client\obj\Debug\net6.0\build-gz\chRyXNtR.gz

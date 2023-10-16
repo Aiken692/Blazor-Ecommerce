@@ -14,6 +14,8 @@
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-2Gr7ehRgVhAev11Ntgsx81qFKG1hVez4c8Lqxq0mc68=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-GEkjndkm8h9limAG14qOsMSJgr9cVVWe30eTyd82ieI=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-DzDLDFAvnNyd07869\/DkJ68xqH0PNKB74ePuplrCs+c=",
+      "Microsoft.AspNetCore.Http.Abstractions.dll": "sha256-qFKmKNr9iAZiZxOVvLJBfMhkKfDy1GvY81fHh1hiphU=",
+      "Microsoft.AspNetCore.Http.Features.dll": "sha256-J2xQUZ4BD6tsrQkvGS5HDQfkTGMzmaS76TA9nJrtCpg=",
       "Microsoft.AspNetCore.Metadata.dll": "sha256-lasmgMAhsZQU\/tKtRWstHcb7qnHPfKWQmbJQRbUXKvQ=",
       "Microsoft.AspNetCore.WebUtilities.dll": "sha256-D5akJeBd7NNITuzAXxlX7zl2jfsc4uTKyeEKwwNhqoo=",
       "Microsoft.Extensions.Configuration.dll": "sha256-c8yYhfrOBLEnOBglLTu9peXSbJDwFpuT4UQiXSv28Og=",
@@ -200,15 +202,15 @@
       "mscorlib.dll": "sha256-jzikATOUXZ4ADvFQ16S0KGAR1MWeQw31aXXccUFs08w=",
       "netstandard.dll": "sha256-87jtKWKXMg3nXj8D1mLQabI+cTWOPvy5ll3sBYj\/ZhI=",
       "System.Private.CoreLib.dll": "sha256-gjd6M5pA\/nOZEI8pvs9SPUAFG1Jppwr9Xl6v7Wab8Fc=",
-      "BlazorEcommerce.Shared.dll": "sha256-Pc86QjXHGgihsRtiGUgbcS5QAST\/O1dVAzBR5MqALwc=",
-      "BlazorEcommerce.Client.dll": "sha256-wc\/8mbIntDm7\/4k1shjj\/vgSYb+svSE65N6xQCw4HJ0="
+      "BlazorEcommerce.Shared.dll": "sha256-uXGUFIgpFLjpvup5g8BFE4pcAO6NXjzumHXf8W7j09o=",
+      "BlazorEcommerce.Client.dll": "sha256-E0bjDgaXIOYiQ0r6MroaWrx4C+rBxi3bBB\/33nvtx8E="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "BlazorEcommerce.Shared.pdb": "sha256-MQhzsWCc10M4Lgd64grHgvpJY96Ok24fpxp0eY099aA=",
-      "BlazorEcommerce.Client.pdb": "sha256-zyjAZeN34iNeAJB6VE4S2oXnTL6WmmnfR1QsKUvOVHA="
+      "BlazorEcommerce.Shared.pdb": "sha256-EJTdkHnEm3DJmxfZHRfPKTSwq7ZVOH\/N8qQjG4DYg14=",
+      "BlazorEcommerce.Client.pdb": "sha256-7wyQ0NpCLs+cZmzOxM6K3YZvOwrZBxhIejMZTFrnTtc="
     },
     "runtime": {
       "dotnet.6.0.23.6cu7i004ot.js": "sha256-YYG9NE7FnTlr1qMbQzBTzUGZOcLX64xP2Z1+An1jT6U=",

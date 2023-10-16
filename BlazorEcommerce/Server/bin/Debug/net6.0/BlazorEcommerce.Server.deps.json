@@ -141,6 +141,17 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
       "Microsoft.AspNetCore.Metadata/6.0.23": {
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
@@ -535,6 +546,7 @@
           "Blazored.LocalStorage": "4.4.0",
           "Microsoft.AspNetCore.Components.Authorization": "6.0.23",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.20",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.WebUtilities": "2.2.0"
         },
         "runtime": {
@@ -630,6 +642,20 @@
       "sha512": "sha512-WV2SanSJMis3vemiL9YnTjrImlfJEPYksr8UEd0wZ/LTrU42liNJKEZKs2Vw7ThCNp5ZFntn93oKXs80pFvPZA==",
       "path": "microsoft.aspnetcore.components.webassembly.server/6.0.20",
       "hashPath": "microsoft.aspnetcore.components.webassembly.server.6.0.20.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Metadata/6.0.23": {
       "type": "package",

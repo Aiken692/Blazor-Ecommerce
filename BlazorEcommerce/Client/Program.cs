@@ -10,6 +10,7 @@ using BlazorEcommerce.Client;
 using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using BlazorEcommerce.Client.Services.OrderService;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
@@ -23,6 +24,7 @@ builder.Services.AddScoped<IProductService, ProductServoce>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddOptions();
 builder.Services.AddAuthorizationCore();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthStateProvider>();

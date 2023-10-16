@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Dpl+lbfFRfj8OJs6kGt+kabePg/v5odGX7lWNF1w3p/5NrF9WaaET2PLmHkmJjo3pyEf4ZV1N2VYBQAqh2nyIw==",
+  "dgSpecHash": "Kc98oij8mP1ZDhlj2pXGkVMXKNODACBS28z9SccdAYlrSK1vobCpmJHKdd32UgzgX0KmzGDLwMgfV3lpYV6kLA==",
   "success": true,
   "projectFilePath": "D:\\Personal\\Blazor-Ecommerce\\BlazorEcommerce\\Server\\BlazorEcommerce.Server.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,8 @@
     "C:\\Users\\rwalt\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.20\\microsoft.aspnetcore.components.web.6.0.20.nupkg.sha512",
     "C:\\Users\\rwalt\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.20\\microsoft.aspnetcore.components.webassembly.6.0.20.nupkg.sha512",
     "C:\\Users\\rwalt\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\6.0.20\\microsoft.aspnetcore.components.webassembly.server.6.0.20.nupkg.sha512",
+    "C:\\Users\\rwalt\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\rwalt\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\rwalt\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.23\\microsoft.aspnetcore.metadata.6.0.23.nupkg.sha512",
     "C:\\Users\\rwalt\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\rwalt\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.21\\microsoft.entityframeworkcore.6.0.21.nupkg.sha512",

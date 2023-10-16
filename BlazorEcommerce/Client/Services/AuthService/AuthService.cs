@@ -1,10 +1,15 @@
-﻿namespace BlazorEcommerce.Client.Services.AuthService
+﻿using Microsoft.AspNetCore.Http;
+using System.Security.Claims;
+
+namespace BlazorEcommerce.Client.Services.AuthService
 {
     public class AuthService : IAuthService
     {
         private readonly HttpClient _httpClient;
 
-        public AuthService(HttpClient httpClient)
+        public AuthService(
+            HttpClient httpClient           
+            )
         {
             _httpClient = httpClient;
         }
