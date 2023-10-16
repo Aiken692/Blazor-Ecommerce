@@ -132,3 +132,9 @@ D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Server\obj\Debug\net6.0\refint\Blaz
 D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Server\obj\Debug\net6.0\BlazorEcommerce.Server.pdb
 D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Server\obj\Debug\net6.0\BlazorEcommerce.Server.genruntimeconfig.cache
 D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Server\obj\Debug\net6.0\ref\BlazorEcommerce.Server.dll
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Server\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Personal\Blazor-Ecommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
