@@ -113,8 +113,8 @@ namespace BlazorEcommerce.Server.Migrations
                     b.Property<int>("ProductTypeId")
                         .HasColumnType("integer");
 
-                    b.Property<double>("Quantity")
-                        .HasColumnType("double precision");
+                    b.Property<int>("Quantity")
+                        .HasColumnType("integer");
 
                     b.Property<double>("TotalPrice")
                         .HasColumnType("double precision");
