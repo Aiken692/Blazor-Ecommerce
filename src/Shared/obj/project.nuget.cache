@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JgAVY7pNKLSo1uGZSPuWRJGpoYN4NQ8UqwU69+xzhUs6gy/v+ElGBGHsZzoQqFAjDLcgEPFej4Ojy8FO4e6dPQ==",
+  "dgSpecHash": "qMraLfxXfNJ7102XTbI+tiQ4AeKogl5blI9QrrAWuvCOVxD/lgv9aBgfDGZkbTte3VuhpJvaHSU4JDOXjD7CKw==",
   "success": true,
   "projectFilePath": "D:\\Personal_Projects\\Blazor-Ecommerce\\src\\Shared\\BlazorEcommerce.Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Walter\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\Walter\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\Walter\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512"
+  ],
   "logs": []
 }

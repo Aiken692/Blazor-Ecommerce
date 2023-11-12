@@ -1,13 +1,16 @@
 ﻿@page "/orders"
+
 @inject IOrderService OrderService
 
-@if(orders == null)
-{
-    <span>Loading your orders .....</span>
+<h3>Orders</h3>
 
-}else if(orders.Count <= 0)
+@if (orders == null)
 {
-    <span>You have no orders, yet</span>
+    <span>Loading your orders...</span>
+}
+else if (orders.Count <= 0)
+{
+    <span>You have no orders, yet.</span>
 }
 else
 {
@@ -15,12 +18,11 @@ else
     {
         <div class="container">
             <div class="image-wrapper">
-                <img src="@order.ProductImageUrl" class="image"/>
+                <img src="@order.ProductImageUrl" class="image" />
             </div>
-
             <div class="details">
                 <h4>@order.Product</h4>
-                <span>@order.OrderDate</span>
+                <span>@order.OrderDate</span><br />
                 <a href="orders/@order.Id">Show more...</a>
             </div>
             <div class="order-price">$@order.TotalPrice</div>
@@ -28,11 +30,12 @@ else
     }
 }
 
+
 @code {
-    public List<OrderOverviewResponse> orders = null;
+    List<OrderOverviewResponse> orders = null;
 
     protected override async Task OnInitializedAsync()
     {
-        orders = await OrderService.GetOrders();  
+        orders = await OrderService.GetOrders();
     }
 }
