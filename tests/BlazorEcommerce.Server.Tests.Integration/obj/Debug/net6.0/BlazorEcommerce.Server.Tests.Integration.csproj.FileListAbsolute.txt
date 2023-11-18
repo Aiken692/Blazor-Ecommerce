@@ -1,10 +1,3 @@
-D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.csproj.AssemblyReference.cache
-D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\MvcTestingAppManifest.json
-D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.GeneratedMSBuildEditorConfig.editorconfig
-D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.AssemblyInfoInputs.cache
-D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.AssemblyInfo.cs
-D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.csproj.CoreCompileInputs.cache
-D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.sourcelink.json
 D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\bin\Debug\net6.0\BlazorEcommerce.Server.deps.json
 D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\bin\Debug\net6.0\BlazorEcommerce.Server.runtimeconfig.json
 D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\bin\Debug\net6.0\BlazorEcommerce.Client.staticwebassets.runtime.json
@@ -317,6 +310,13 @@ D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integra
 D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\bin\Debug\net6.0\BlazorEcommerce.Server.pdb
 D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\bin\Debug\net6.0\BlazorEcommerce.Client.pdb
 D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\bin\Debug\net6.0\BlazorEcommerce.Shared.pdb
+D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.csproj.AssemblyReference.cache
+D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\MvcTestingAppManifest.json
+D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.AssemblyInfoInputs.cache
+D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.AssemblyInfo.cs
+D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.csproj.CoreCompileInputs.cache
+D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.sourcelink.json
 D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.csproj.CopyComplete
 D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\BlazorEcommerce.Server.Tests.Integration.dll
 D:\Personal_Projects\Blazor-Ecommerce\tests\BlazorEcommerce.Server.Tests.Integration\obj\Debug\net6.0\refint\BlazorEcommerce.Server.Tests.Integration.dll

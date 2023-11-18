@@ -45,7 +45,7 @@
 
         public async Task<ServiceResponse<bool>> PlaceOrder(int userId)
         {
-            var products = (await _cartService.GetDbCartProducts()).Data;
+            var products = (await _cartService.GetDbCartProducts(userId)).Data;
             double totalPrice = 0;
             products.ForEach(product => totalPrice += product.Price * product.Quantity);
 
