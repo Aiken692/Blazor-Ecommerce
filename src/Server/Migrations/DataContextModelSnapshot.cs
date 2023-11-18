@@ -96,11 +96,19 @@ namespace BlazorEcommerce.Server.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<bool>("Deleted")
+                        .HasColumnType("boolean");
+
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Url")
+                        .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<bool>("Visible")
+                        .HasColumnType("boolean");
 
                     b.HasKey("Id");
 
@@ -110,20 +118,26 @@ namespace BlazorEcommerce.Server.Migrations
                         new
                         {
                             Id = 1,
+                            Deleted = false,
                             Name = "Books",
-                            Url = "books"
+                            Url = "books",
+                            Visible = true
                         },
                         new
                         {
                             Id = 2,
+                            Deleted = false,
                             Name = "Movies",
-                            Url = "movies"
+                            Url = "movies",
+                            Visible = true
                         },
                         new
                         {
                             Id = 3,
+                            Deleted = false,
                             Name = "Video Games",
-                            Url = "video-games"
+                            Url = "video-games",
+                            Visible = true
                         });
                 });
 
@@ -538,6 +552,10 @@ namespace BlazorEcommerce.Server.Migrations
                     b.Property<byte[]>("PasswordSalt")
                         .IsRequired()
                         .HasColumnType("bytea");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.HasKey("Id");
 

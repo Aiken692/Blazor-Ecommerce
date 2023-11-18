@@ -634,6 +634,8 @@ D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\staticwebasset
 D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BlazorEcommerce.Client.props
 D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BlazorEcommerce.Client.props
 D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\scopedcss\Pages\Admin\Categories.razor.rz.scp.css
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\scopedcss\Pages\Admin\ProductTypes.razor.rz.scp.css
 D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\scopedcss\Pages\Cart.razor.rz.scp.css
 D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\scopedcss\Pages\OrderDetails.razor.rz.scp.css
 D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\scopedcss\Pages\Orders.razor.rz.scp.css

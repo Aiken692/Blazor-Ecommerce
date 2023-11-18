@@ -8,9 +8,13 @@ global using BlazorEcommerce.Server.Services.CartService;
 global using BlazorEcommerce.Server.Services.OrderService;
 global using BlazorEcommerce.Server.Services.PaymentService;
 global using BlazorEcommerce.Server.Services.AddressService;
+global using BlazorEcommerce.Server.Services.ProductTypeService;
+
+
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+
 
 
 
@@ -46,6 +50,7 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IPaymentService, PaymentService>();
 builder.Services.AddScoped<IAddressService, AddressService>();
+builder.Services.AddScoped<IProductTypeService, ProductTypeService>();
 
 
 //Registers Authentication Middleware/services
