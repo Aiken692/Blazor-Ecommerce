@@ -1,0 +1,2 @@
+D:\Personal_Projects\Blazor-Ecommerce\bin\Debug\BlazorEcommerce.Server.dll
+D:\Personal_Projects\Blazor-Ecommerce\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

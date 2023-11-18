@@ -22,13 +22,23 @@ namespace BlazorEcommerce.Server.Services.AuthService
             _httpContextAccessor = httpContextAccessor;
         }
 
+        public string GetUserEmail()
+        {
+            return _httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.Name);
+        }
+
+        public async Task<User> GetUserByEmail(string email)
+        {
+            return await _context.Users.FirstOrDefaultAsync(u => u.Email.Equals(email));
+        }
+
         public async Task<ServiceResponse<string>> Login(string email, string password)
         {
             var response = new ServiceResponse<string>();
 
             var user = await _context.Users.FirstOrDefaultAsync(x => x.Email.ToLower().Equals(email.ToLower()));
 
-            if(user == null)
+            if (user == null)
             {
                 response.Success = false;
                 response.Message = "User not found.";
@@ -42,14 +52,14 @@ namespace BlazorEcommerce.Server.Services.AuthService
             {
                 response.Data = CreateToken(user);
             }
-            
+
 
             return response;
         }
 
         public async Task<ServiceResponse<int>> Register(User user, string password)
         {
-            if(await UserExists(user.Email))
+            if (await UserExists(user.Email))
             {
                 return new ServiceResponse<int>
                 {
@@ -125,7 +135,7 @@ namespace BlazorEcommerce.Server.Services.AuthService
         {
             var user = await _context.Users.FindAsync(userId);
 
-            if(user == null)
+            if (user == null)
             {
                 return new ServiceResponse<bool>
                 {
@@ -146,6 +156,8 @@ namespace BlazorEcommerce.Server.Services.AuthService
         }
 
         public int GetUserId() => int.Parse(_httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+
     }
-    
+
 }

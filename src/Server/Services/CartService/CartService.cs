@@ -76,7 +76,7 @@
                 var cartProduct = new CartProductResponse
                 {
                     ProductId = product.Id,
-                    Titile = product.Title,
+                    Title = product.Title,
                     ImageUrl = product.ImageUrl,
                     Price = productVariant.Price,
                     ProductType = productVariant.ProductType.Name,

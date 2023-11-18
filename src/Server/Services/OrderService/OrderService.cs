@@ -43,7 +43,7 @@
             return response;
         }
 
-        public async Task<ServiceResponse<bool>> PlaceOrder()
+        public async Task<ServiceResponse<bool>> PlaceOrder(int userId)
         {
             var products = (await _cartService.GetDbCartProducts()).Data;
             double totalPrice = 0;
@@ -69,7 +69,7 @@
 
             _context.Orders.Add(order);
 
-            _context.CartItems.RemoveRange(_context.CartItems.Where(ci => ci.UserId == _authService.GetUserId()));
+            _context.CartItems.RemoveRange(_context.CartItems.Where(ci => ci.UserId == userId));
 
             await _context.SaveChangesAsync();
 
