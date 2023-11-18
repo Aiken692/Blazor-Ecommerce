@@ -1,4 +1,6 @@
-﻿namespace BlazorEcommerce.Shared
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace BlazorEcommerce.Shared
 {
     public class ProductVariant
     {
@@ -8,5 +10,11 @@
         public Product? Product { get; set; }
         public double OriginalPrice { get; set; }
         public double Price { get; set; }
+        public bool Visible { get; set; } = true;
+        public bool Deleted { get; set; } = false;
+        [NotMapped]
+        public bool Editing { get; set; } = false;
+        [NotMapped]
+        public bool IsNew { get; set; } = false;
     }
 }

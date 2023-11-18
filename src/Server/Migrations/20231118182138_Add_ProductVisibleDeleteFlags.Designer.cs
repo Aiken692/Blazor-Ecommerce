@@ -3,6 +3,7 @@ using System;
 using BlazorEcommerce.Server.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BlazorEcommerce.Server.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20231118182138_Add_ProductVisibleDeleteFlags")]
+    partial class Add_ProductVisibleDeleteFlags
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -139,28 +141,6 @@ namespace BlazorEcommerce.Server.Migrations
                             Url = "video-games",
                             Visible = true
                         });
-                });
-
-            modelBuilder.Entity("BlazorEcommerce.Shared.Image", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Data")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int?>("ProductId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Images");
                 });
 
             modelBuilder.Entity("BlazorEcommerce.Shared.Order", b =>
@@ -663,13 +643,6 @@ namespace BlazorEcommerce.Server.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("BlazorEcommerce.Shared.Image", b =>
-                {
-                    b.HasOne("BlazorEcommerce.Shared.Product", null)
-                        .WithMany("Images")
-                        .HasForeignKey("ProductId");
-                });
-
             modelBuilder.Entity("BlazorEcommerce.Shared.OrderItem", b =>
                 {
                     b.HasOne("BlazorEcommerce.Shared.Order", "Order")
@@ -734,8 +707,6 @@ namespace BlazorEcommerce.Server.Migrations
 
             modelBuilder.Entity("BlazorEcommerce.Shared.Product", b =>
                 {
-                    b.Navigation("Images");
-
                     b.Navigation("Variants");
                 });
 
