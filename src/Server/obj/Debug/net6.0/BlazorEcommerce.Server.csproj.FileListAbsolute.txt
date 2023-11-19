@@ -89,3 +89,6 @@ D:\Personal_Projects\Blazor-Ecommerce\src\Server\obj\Debug\net6.0\refint\BlazorE
 D:\Personal_Projects\Blazor-Ecommerce\src\Server\obj\Debug\net6.0\BlazorEcommerce.Server.pdb
 D:\Personal_Projects\Blazor-Ecommerce\src\Server\obj\Debug\net6.0\BlazorEcommerce.Server.genruntimeconfig.cache
 D:\Personal_Projects\Blazor-Ecommerce\src\Server\obj\Debug\net6.0\ref\BlazorEcommerce.Server.dll
+D:\Personal_Projects\Blazor-Ecommerce\src\Server\bin\Debug\net6.0\Microsoft.Extensions.Localization.dll
+D:\Personal_Projects\Blazor-Ecommerce\src\Server\bin\Debug\net6.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Personal_Projects\Blazor-Ecommerce\src\Server\bin\Debug\net6.0\MudBlazor.dll

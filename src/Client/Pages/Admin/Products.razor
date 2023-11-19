@@ -36,7 +36,7 @@ else
                         }
                         else if (product.Images.Count > 0)
                         {
-                            <img src="@product.Images[0].Data" />
+                            <img src="@product.Images.First().Data" />
                         }
                     </td>
                     <td>@product.Title</td>

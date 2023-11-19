@@ -864,3 +864,15 @@ D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\BlazorEcommerc
 D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\ref\BlazorEcommerce.Client.dll
 D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\scopedcss\Pages\Admin\Products.razor.rz.scp.css
 D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\scopedcss\Pages\Admin\EditProduct.razor.rz.scp.css
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll.gz
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll.gz
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll.gz
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\bin\Debug\net6.0\Microsoft.Extensions.Localization.dll
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\bin\Debug\net6.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\bin\Debug\net6.0\MudBlazor.dll
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\compressed\kb6b6agzry.gz
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\compressed\7dn3mz7lqi.gz
+D:\Personal_Projects\Blazor-Ecommerce\src\Client\obj\Debug\net6.0\compressed\bqp5lfjguw.gz
